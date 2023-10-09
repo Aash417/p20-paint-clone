@@ -66,10 +66,10 @@ let currentColor = "#A51DAB";
 
 // Create Canvas
 function createCanvas() {
-	// canvas.width = ;
-	// canvas.height = ;
-	// context.fillStyle = ;
-	// context.fillRect();
+	canvas.width = window.innerWidth;
+	canvas.height = window.innerHeight - 50;
+	contest.fillStyle = bucketColor;
+	contest.fillRect(0, 0, canvas.width, canvas.height);
 	body.appendChild(canvas);
 }
 
